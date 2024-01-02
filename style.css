@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+
+.container{
+    max-width: 80%;
+    /* background-color: purple; */
+    padding: 22px;
+    margin:auto
+}
+.container h1, p{
+    text-align: center;
+
+}
+
+input , textarea{
+    width: 90%;
+    padding: 4px;
+    margin: 8px auto;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 18px;
+    outline: none;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.btn{
+    color: white;
+    background: purple;
+    padding: 10px 41px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
+.submitmsg{
+    color: green;
+    font-size: 16px;
+}
